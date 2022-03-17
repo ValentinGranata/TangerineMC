@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="copyrighted-site-verification" content="d97ca3b17c0dafa2" />
+    <meta name='dmca-site-verification' content='dkM0UWhMTGpNMHB2dWN5SGRSNG5peFlEcloyenZaOWZTR3JGdTdrY0thQT01' />
+    
+    <title>HOME | TangerineMC</title>
+    
+    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    <script src="https://kit.fontawesome.com/40e671f335.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./src/style/general.css">
+    <link rel="stylesheet" href="./src/style/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="copy-box">
+        <img class="img" src="https://static.wixstatic.com/media/46f3fb_0a0f693ad5af49e8adc522d5080165fc~mv2.gif" alt="">
+        <p>IP copiato</p>
+    </div>
+
+    <header class="topbar" id="topbar">
+        <div class="container" id="container">
+            <div class="left">
+                <img id="logo" src="./src/img/logo.png" alt="">
+                <div class="txt-column">
+                    <p class="server-name orange">TANGERINEMC</p>
+                    <p class="server-ip">play.tangerinemc.it</p>
+                </div>
+
+                <div class="menu" id="menu" status="close" onclick="buttonClickEvent()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="center">
+                <ul class="pages">
+                    <li class="home"><a href="#">HOME</a></li>
+                    <li class="staff"><a href="#staff">STAFF</a></li>
+                    <li class="store"><a href="#">STORE</a></li>
+                    <li class="store"><a target="__blank" href="https://www.minecraft-italia.it/server/tangerinemc">VOTACI</a></li>
+                    <li class="mappaonline"><a target="__blank" href="https://tangerinemc.it/map">MAPPA</a></li>
+
+                </ul>
+            </div>
+            <div class="right" onclick="copyIP('play.tangerinemc.it')">
+                <div class="txt-column">
+                    <p class="server-name orange">PLAY.TANGERINEMC.IT</p>
+                    <p class="server-ip">COPIA IP</p>
+                </div>
+                <img class="ip-icon" src="./src/img/icon-ip.png" alt="">
+            </div>
+
+            <ul id="menu-pages">
+                <li class="home"><a href="#">HOME</a></li>
+                <li class="staff"><a href="#staff">STAFF</a></li>
+                <li class="store"><a href="#">STORE</a></li>
+                <li class="store"><a target="__blank" href="https://www.minecraft-italia.it/server/tangerinemc">VOTACI</a></li>
+                <li class="mappa"><a target="__blank" href="https://www.tangerinemc.it/map">MAPPA</a></li>
+		<li onclick="copyIP('pe.tangerinemc.it')">COPY IP</li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="progress-bar">
+        <div id="progress"></div>
+    </div>
+
+    <div class="main-bg">
+        <img class="logo" src="./src/img/logo.png" alt="">
+        <div class="txt-box">
+            <p class="title">TANGERINEMC</p>
+            <p class="ip">PLAY.TANGERINEMC.IT</p>
+        </div>
+    </div>
+
+    <div class="about-section">
+        <div class="divisor">
+            <hr class="line">
+            <p class="title" id="about">ABOUT</p>
+            <hr class="line">
+        </div>
+
+        <div class="section">
+            <img class="a-left" src="./src/img/img.png" alt="">
+            <p class="text a-right">TangerineMC è un server nato il 25 Dicembre 2021 con l'intento di rivoluzionare le survival italiane con fazioni,imperi,alleanze,ogni giorno cerchiamo di migliorare le modalità al meglio!</p>
+        </div>
+
+        <div class="section">
+            <p class="text a-left">Ma non solo,TangerineMC ha anche una modalità incentrata sul PVP,il KitPvP qui potrai creare gang,divertirti con i tuoi amici,e rimanere l'ultimo in battaglia!</p>
+            <img class="a-right" src="./src/img/img1.png" alt="">
+        </div>
+    </div>
+
+    <div class="staff-section">
+        <div class="divisor">
+            <hr class="line">
+            <p id="staff" class="title">STAFF</p>
+            <hr class="line">
+        </div>
+        
+        <!-- OWNER -->
+        <p class="staff-role owner">OWNER</p>
+        <div class="section">
+            <div class="staff-card owner">
+                <img class="head" src="https://cravatar.eu/helmhead/FrancyCraft259/190.png" alt="">
+                <div class="container">
+                    <p class="name owner">FrancyCraft259</p>
+                    <p class="role">OWNER</p>
+                </div>
+            </div>
+            <div class="staff-card owner">
+                <img class="head" src="https://cravatar.eu/helmhead/MrlaFlamee/190.png" alt="">
+                <div class="container">
+                    <p class="name owner">MrlaFlamee</p>
+                    <p class="role">OWNER</p>
+                </div>
+            </div>
+            <div class="staff-card owner">
+                <img class="head" src="https://cravatar.eu/helmhead/Mirco_Ross141/190.png" alt="">
+                <div class="container">
+                    <p class="name owner">Mirco_Ross141</p>
+                    <p class="role">OWNER</p>
+                </div>
+            </div>
+            <div class="staff-card owner">
+                <img class="head" src="https://cravatar.eu/helmhead/RedFirez1/190.png" alt="">
+                <div class="container">
+                    <p class="name owner">RedFirez1</p>
+                    <p class="role">OWNER</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- DEV -->
+        <p class="staff-role dev">DEVELOPER</p>
+        <div class="section">
+            <div class="staff-card dev">
+                <img class="head" src="https://cravatar.eu/helmhead/ThreeWhi/190.png" alt="">
+                <div class="container">
+                    <p class="name dev">ThreeWhi</p>
+                    <p class="role">DEV</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ADMIN -->
+        <p class="staff-role admin">ADMIN</p>
+        <div class="section">
+            <div class="staff-card admin">
+                <img class="head" src="https://cravatar.eu/helmhead/MrCorvine_/190.png" alt="">
+                <div class="container">
+                    <p class="name admin">MrCorvine_</p>
+                    <p class="role">ADMIN</p>
+                </div>
+            </div>
+            <div class="staff-card admin">
+                <img class="head" src="https://cravatar.eu/helmhead/wao/190.png" alt="">
+                <div class="container">
+                    <p class="name admin">Flany120FPS</p>
+                    <p class="role">ADMIN</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- MOD -->
+        <p class="staff-role mod">MOD</p>
+        <div class="section">
+            <div class="staff-card mod">
+                <img class="head" src="https://cravatar.eu/helmhead/mr_idro/190.png" alt="">
+                <div class="container">
+                    <p class="name mod">mr_idro</p>
+                    <p class="role">MOD</p>
+                </div>
+            </div>
+            <div class="staff-card mod">
+                <img class="head" src="https://cravatar.eu/helmhead/risacca/190.png" alt="">
+                <div class="container">
+                    <p class="name mod">Risacca</p>
+                    <p class="role">MOD</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- HELPER -->
+        <p class="staff-role helper">HELPER</p>
+        <div class="section">
+            <div class="staff-card helper">
+                <img class="head" src="https://cravatar.eu/helmhead/MiChiamoSamu/190.png" alt="">
+                <div class="container">
+                    <p style="font-size: 32px;" class="name helper">MiChiamoSamu</p>
+                    <p class="role">HELPER</p>
+                </div>
+            </div>
+            <div class="staff-card helper">
+                <img class="head" src="https://cravatar.eu/helmhead/SemplicementeAle/190.png" alt="">
+                <div class="container">
+                    <p style="font-size: 32px;" class="name helper">SemplicementeAle</p>
+                    <p class="role">HELPER</p>
+                </div>
+            </div>
+            <div class="staff-card helper">
+                <img class="head" src="https://cravatar.eu/helmhead/Danoschio/190.png" alt="">
+                <div class="container">
+                    <p class="name helper">Danoschio</p>
+                    <p class="role">HELPER</p>
+                </div>
+            </div>
+	    <div class="staff-card helper">
+                <img class="head" src="https://cravatar.eu/helmhead/PS_Loco/190.png" alt="">
+                <div class="container">
+                    <p class="name helper">PS_LOCO</p>
+                    <p class="role">HELPER</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- BUILDER -->
+        <p class="staff-role builder">BUILDER</p>
+        <div class="section">
+            <div class="staff-card builder">
+                <img class="head" src="https://cravatar.eu/helmhead/GalaxyTia_/190.png" alt="">
+                <div class="container">
+                    <p class="name builder">GalaxyTia_</p>
+                    <p class="role">BUILDER</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="top">
+            <div class="left">
+                <img src="./src/img/logo.png" alt="">
+                <div class="txt-column">
+                    <p class="server-name orange">TANGERINEMC</p>
+                    <p class="server-ip">play.tangerinemc.it</p>
+                </div>
+            </div>
+
+            <div class="right">
+                <a target="_blink" href="https://discord.gg/jkdjnXXuyX"><p id="dev">ThreeWhi</p></a>
+            </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="bottom">
+            <div class="socials">
+                <a target="_blink" href="https://instagram.com/tangerinemcnetwork"><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blink" href="https://twitter.com/tangerinemc"><i class="fa-brands fa-twitter"></i></a>
+                <a target="_blink" href="https://www.tiktok.com/@tangerinemc"><i class="fa-brands fa-tiktok"></i></a>
+                <a target="_blink" href="https://t.me/tangerinemcnews"><i class="fa-brands fa-telegram"></i></a>
+                <a target="_blink" href="https://tangerinemc.it/discord"><i class="fa-brands fa-discord"></i></a>
+            </div>
+            <div class="copyright">
+                <a class="copyrighted-badge" title="Copyrighted.com Registered &amp; Protected" target="_blank" href="https://www.copyrighted.com/website/uu6NPSvYah50Nqaz"><img alt="Copyrighted.com Registered &amp; Protected" border="0" width="125" height="25" srcset="https://static.copyrighted.com/badges/125x25/05_1_2x.png 2x" src="https://static.copyrighted.com/badges/125x25/05_1.png" /></a><script src="https://static.copyrighted.com/badges/helper.js"></script>
+                <a href="//www.dmca.com/Protection/Status.aspx?ID=6f1445b9-debb-44ef-8cb8-ce92189f6f45" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-08.png?ID=6f1445b9-debb-44ef-8cb8-ce92189f6f45"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./src/js/general.js"></script>
+</body>
+</html>

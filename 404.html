@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>404 | TangerineMC</title>
+
+    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    <script src="https://kit.fontawesome.com/40e671f335.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./src/style/error.css">
+    <link rel="stylesheet" href="./src/style/general.css">
+    <link rel="stylesheet" href="./src/style/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="copy-box">
+        <img class="img" src="https://static.wixstatic.com/media/46f3fb_0a0f693ad5af49e8adc522d5080165fc~mv2.gif" alt="">
+        <p>IP copiato</p>
+    </div>
+
+    <header class="topbar" id="topbar">
+        <div class="container" id="container">
+            <div class="left">
+                <img id="logo" src="./src/img/logo.png" alt="">
+                <div class="txt-column">
+                    <p class="server-name orange">TANGERINEMC</p>
+                    <p class="server-ip">play.tangerinemc.it</p>
+                </div>
+
+                <div class="menu" id="menu" status="close" onclick="buttonClickEvent()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="center">
+                <ul class="pages">
+                    <li class="home"><a href="/index.html">HOME</a></li>
+                    <li class="staff"><a href="/index.html#staff">STAFF</a></li>
+                    <li class="store"><a href="#">STORE</a></li>
+                    <li class="store"><a target="__blank" href="https://www.minecraft-italia.it/server/tangerinemc">VOTACI</a></li>
+                    <li class="mappaonline"><a target="__blank" href="https://tangerinemc.it/map">MAPPA</a></li>
+                </ul>
+            </div>
+            <div class="right" onclick="copyIP('play.tangerinemc.it')">
+                <div class="txt-column">
+                    <p class="server-name orange">PLAY.TANGERINEMC.IT</p>
+                    <p class="server-ip">COPIA IP</p>
+                </div>
+                <img class="ip-icon" src="./src/img/icon-ip.png" alt="">
+            </div>
+
+            <ul id="menu-pages">
+                <li class="home"><a href="/index.html">HOME</a></li>
+                <li class="staff"><a href="/index.html#staff">STAFF</a></li>
+                <li class="store"><a href="#">STORE</a></li>
+                <li class="store"><a target="__blank" href="https://www.minecraft-italia.it/server/tangerinemc">VOTACI</a></li>
+                <li class="mappa"><a target="__blank" href="https://www.tangerinemc.it/map">MAPPA</a></li>
+		<li onclick="copyIP('pe.tangerinemc.it')">COPY IP</li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="mid">
+        <h1 class="error">404 Not Found</h1>
+        <h1>Pagina non trovata</h1>
+    </div>
+
+    <footer>
+        <div class="top">
+            <div class="left">
+                <img src="./src/img/logo.png" alt="">
+                <div class="txt-column">
+                    <p class="server-name orange">TANGERINEMC</p>
+                    <p class="server-ip">play.tangerinemc.it</p>
+                </div>
+            </div>
+
+            <div class="right">
+                <a target="_blink" href="https://discord.gg/jkdjnXXuyX"><p id="dev">ThreeWhi</p></a>
+            </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="bottom">
+            <div class="socials">
+                <a target="_blink" href="https://instagram.com/tangerinemcnetwork"><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blink" href="https://twitter.com/tangerinemc"><i class="fa-brands fa-twitter"></i></a>
+                <a target="_blink" href="https://www.tiktok.com/@tangerinemc"><i class="fa-brands fa-tiktok"></i></a>
+                <a target="_blink" href="https://t.me/tangerinemcnews"><i class="fa-brands fa-telegram"></i></a>
+                <a target="_blink" href="https://tangerinemc.it/discord"><i class="fa-brands fa-discord"></i></a>
+            </div>
+            <div class="copyright">
+                <a class="copyrighted-badge" title="Copyrighted.com Registered &amp; Protected" target="_blank" href="https://www.copyrighted.com/website/uu6NPSvYah50Nqaz"><img alt="Copyrighted.com Registered &amp; Protected" border="0" width="125" height="25" srcset="https://static.copyrighted.com/badges/125x25/05_1_2x.png 2x" src="https://static.copyrighted.com/badges/125x25/05_1.png" /></a><script src="https://static.copyrighted.com/badges/helper.js"></script>
+                <a href="//www.dmca.com/Protection/Status.aspx?ID=6f1445b9-debb-44ef-8cb8-ce92189f6f45" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-08.png?ID=6f1445b9-debb-44ef-8cb8-ce92189f6f45"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./src/js/general.js"></script>
+</body>
+</html>
